@@ -4,19 +4,17 @@ public class Usuario {
     public String nombre;
     public String apellidos;
     public String correo;
-    public String contraseña;
+    public String password;
     public String rol;
 
-    public Usuario(int cedula, String nombre, String apellidos, String correo, String contraseña, String rol) {
+    public Usuario(int cedula, String nombre, String apellidos, String correo, String password, String rol) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.correo = correo;
-        this.contraseña = contraseña;
+        this.password = password;
         this.rol = rol;
     }
-
-
 }
 
 
