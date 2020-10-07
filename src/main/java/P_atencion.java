@@ -8,6 +8,7 @@ public class P_atencion {
     ArrayList<Paquete> paquetes_por_recibir = new ArrayList<>();
     Deque<Cliente> clientes;
 
+
     public P_atencion(int codigo, ArrayList<Empleado> empleados, Deque<Paquete> paquetes_por_enviar, ArrayList<Paquete> paquetes_por_recibir, Deque<Cliente> clientes) {
         this.codigo = codigo;
         this.empleados = empleados;

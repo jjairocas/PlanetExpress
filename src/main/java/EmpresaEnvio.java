@@ -5,6 +5,7 @@ public class EmpresaEnvio {
     int nit;
     ArrayList<Sede> sedes = new ArrayList<>();
 
+
     public EmpresaEnvio(String nombre, int nit, ArrayList<Sede> sedes) {
         this.nombre = nombre;
         this.nit = nit;
