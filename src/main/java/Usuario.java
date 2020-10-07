@@ -25,12 +25,12 @@ public class Usuario {
     @Override
     public String toString() {
         return "Usuario{" +
-                "cedula=" + cedula +
-                ", nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
-                ", correo='" + correo + '\'' +
-                ", password='" + password + '\'' +
-                ", rol='" + rol + '\'' +
+                "cedula =" + cedula +
+                ", nombre ='" + nombre + '\'' +
+                ", apellidos ='" + apellidos + '\'' +
+                ", correo ='" + correo + '\'' +
+                ", password ='" + password + '\'' +
+                ", rol ='" + rol + '\'' +
                 '}';
     }
 

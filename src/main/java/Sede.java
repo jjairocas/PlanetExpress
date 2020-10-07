@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Sede {
     String nombre;
     int codigo;
-    ArrayList<C_logistico> centros_logisticos;
+    ArrayList<C_logistico> centros_logisticos = new ArrayList<>();
 
     public Sede(String nombre, int codigo, ArrayList<C_logistico> centros_logisticos) {
         this.nombre = nombre;
@@ -25,9 +25,9 @@ public class Sede {
     @Override
     public String toString() {
         return "Sede{" +
-                "nombre='" + nombre + '\'' +
-                ", codigo=" + codigo +
-                ", centros_logisticos=" + centros_logisticos +
+                "nombre ='" + nombre + '\'' +
+                ", codigo =" + codigo +
+                ", centros_logisticos =" + centros_logisticos +
                 '}';
     }
 }

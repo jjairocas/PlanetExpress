@@ -8,15 +8,19 @@ public class Cliente extends Usuario {
         this.paquetes = paquetes;
     }
 
-    @Override
-    public String toString() {
-        return "Cliente{" +
-                "cedula=" + cedula +
-                ", nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
-                ", correo='" + correo + '\'' +
-                ", password='" + password + '\'' +
-                ", rol='" + rol + '\'' +
-                '}';
+
+    public void mostrarPaquete(){}
+
+    public void enviarPaquete(){}
+
+    public void recibirPaquete(){}
+
+
+    public void mostrarPaquetes(){
+        for(Paquete paquete: this.paquetes){
+            paquete.toString();
+        }
+
+
     }
 }
