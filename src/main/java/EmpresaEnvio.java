@@ -12,6 +12,7 @@ public class EmpresaEnvio {
     }
 
     public void agregarSede(Sede sede){
+
         this.sedes.add(sede);
     }
 
@@ -28,5 +29,14 @@ public class EmpresaEnvio {
             }
         }
         return null;
+    }
+
+    @Override
+    public String toString() {
+        return "EmpresaEnvio{" +
+                "nombre='" + nombre + '\'' +
+                ", nit=" + nit +
+                ", sedes=" + sedes +
+                '}';
     }
 }

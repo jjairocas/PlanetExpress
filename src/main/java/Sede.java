@@ -21,4 +21,13 @@ public class Sede {
         }
         return null;
     }
+
+    @Override
+    public String toString() {
+        return "Sede{" +
+                "nombre='" + nombre + '\'' +
+                ", codigo=" + codigo +
+                ", centros_logisticos=" + centros_logisticos +
+                '}';
+    }
 }

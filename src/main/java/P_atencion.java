@@ -1,5 +1,3 @@
-
-
 import java.util.ArrayList;
 import java.util.Deque;
 
@@ -20,10 +18,11 @@ public class P_atencion {
 
     @Override
     public String toString() {
-        return "P_atencion" +"\n"+
-                "codigo =" + codigo +
-                ", paquetes_por_enviar=" + this.paquetes_por_enviar+
-                ", paquetes_por_recibir=" + paquetes_por_recibir.size() +
+        return "P_atencion{" +
+                "codigo=" + codigo +
+                ", empleados=" + empleados +
+                ", paquetes_por_enviar=" + paquetes_por_enviar +
+                ", paquetes_por_recibir=" + paquetes_por_recibir +
                 ", clientes=" + clientes +
                 '}';
     }

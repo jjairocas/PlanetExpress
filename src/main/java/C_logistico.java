@@ -20,4 +20,15 @@ public class C_logistico {
             System.out.println(punto);
         }
     }
+
+    @Override
+    public String toString() {
+        return "C_logistico{" +
+                "direccion='" + direccion + '\'' +
+                ", sede=" + sede +
+                ", puntos_atencion=" + puntos_atencion +
+                ", paquetes=" + paquetes +
+                ", empleados=" + empleados +
+                '}';
+    }
 }

@@ -1,9 +1,22 @@
-public class Cliente {
-    int id;
-    String nombre;
+import java.util.ArrayList;
 
-    public Cliente(int id, String nombre) {
-        this.id = id;
-        this.nombre = nombre;
+public class Cliente extends Usuario {
+    ArrayList<Paquete> paquetes;
+
+    public Cliente(ArrayList<Paquete> paquetes) {
+        super();
+        this.paquetes = paquetes;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "cedula=" + cedula +
+                ", nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", correo='" + correo + '\'' +
+                ", password='" + password + '\'' +
+                ", rol='" + rol + '\'' +
+                '}';
     }
 }
