@@ -8,22 +8,17 @@ public class Cliente extends Usuario {
         super();
         this.paquetes = paquetes;
     }
-    
 
-    public void enviarPaquete(){
+
+    public void enviarPaquete() {
         //"Ingrese los paquetes que desea enviar"
         //crear los objetos tipo Paquete, ingresarlos el la lista paquetes y despues ingresar la lista
         //de los paquete a la lista de paquetesAenviar en el Punto de atencion
     }
 
-    public void recibirPaquete(){}
-
-
-    public void mostrarPaquetes(){
-        for(Paquete paquete: this.paquetes){
-            paquete.toString();
-        }
-
-
+    public void recibirPaquete() {
+        //Ingresar el codigo de los paquetes a recibir
+        //Buscarlos en la lista de los paquetes en el Punto de atencion
+        //Pasarlos a
     }
 }

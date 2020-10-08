@@ -1,1 +1,12 @@
-[{"Usuario":{"apellidos":"admin","password":"admin","cedula":"0000","correo":"admin@gmail.com","nombre":"admin","rol":"administrador"}}]
+[
+  {
+    "Usuario": {
+      "apellidos": "admin",
+      "password": "admin",
+      "cedula": "0000",
+      "correo": "admin@gmail.com",
+      "nombre": "admin",
+      "rol": "administrador"
+    }
+  }
+]
