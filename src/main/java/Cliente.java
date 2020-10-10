@@ -21,4 +21,12 @@ public class Cliente extends Usuario {
         //Buscarlos en la lista de los paquetes en el Punto de atencion
         //Pasarlos a
     }
+
+    public void crearPaquetes(){
+        //metodo para que el cliente cree paquetes y los guarde en la lista paquetes
+    }
+
+    public void mostrarPaquetes(){
+        //metodo para mostrar la lista de los paquetes
+    }
 }
